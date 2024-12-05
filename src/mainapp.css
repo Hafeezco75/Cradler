@@ -1,0 +1,26 @@
+.virtual {
+    display: flex;
+    align-content: space-between;
+    gap: 50px;
+    font-size: 20px;
+}
+.virtual-img{
+    margin-top: 300px;
+    height: 250px;
+    width: 280px;
+}
+.virtual-image{
+    margin-top: 10px;
+    height: 250px;
+    width: 90%;
+}
+.top {
+    align-content: space-around;
+    display: flex;
+}
+.top-events {
+    flex-direction: row;
+    margin-top: 10em;
+    height: 5px;
+    width: 50%;
+}

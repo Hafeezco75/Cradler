@@ -1,0 +1,50 @@
+.events{
+    height: 40vh;
+    width: 21vw;
+    border: 1px solid black;
+    box-sizing: initial;
+}
+.event-all{
+    top: 20px;
+    image-rendering: high-quality;
+    background-image: url("../src/assets/images/virtualEvent1.jpeg");
+}
+.all{
+    background-size: contain;
+    background-position: initial;
+}
+.event-list{
+    gap: 25px;
+    justify-content: space-between;
+    display: flex;
+    image-rendering: high-quality;
+    border-radius: 5px;
+}
+@media screen and (max-width: 800px){
+    .responsive {
+        width: 100%;
+    }
+}
+.text{
+    color-rendering: optimizeQuality;
+    color: #1a1a1a;
+    text-align: justify;
+}
+.event-down {
+    width: 21vw;
+    height: 40vh;
+    box-sizing: initial;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.event-listings {
+    gap: 25px;
+    justify-content: space-between;
+    display: flex;
+    image-rendering: high-quality;
+}
+.head-text{
+    color: #1a1a1a;
+    text-align: left;
+    font-size: x-large;
+}

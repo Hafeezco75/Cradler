@@ -1,0 +1,39 @@
+.animation{
+    width: 50px;
+    display: flex;
+}
+.animation-inner{
+
+}
+.button{
+    border: #1a1a1a;
+    border-radius: 10px;
+}
+.button-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.header-button{
+    gap: 30px;
+    align-content: space-between;
+}
+.img {
+    display: flex;
+    height: 200px;
+    width: 70%;
+}
+.img-apps{
+    width: 320vw;
+    height: 200%;
+    flex-direction: row;
+    justify-items: flex-end;
+    margin: 1em;
+}
+.img-auditorium {
+    flex-wrap: wrap;
+    margin: 1em;
+    width: 120vw;
+    height: 60vh;
+    flex-direction: row;
+}

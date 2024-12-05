@@ -1,0 +1,44 @@
+.page-form{
+    box-sizing: border-box;
+    width: 30vw;
+    height: 40vw;
+    border-radius: 15px;
+    background-color: #535bf2;
+}
+.form {
+    border-color: aquamarine;
+    font-size: large;
+}
+.heading {
+    align-content: center;
+    font-size: larger;
+    color: white;
+}
+.pass {
+    font-size: 25px;
+    display: grid;
+    justify-items: center;
+}
+.password-input {
+    font-size: 25px;
+}
+.input-username {
+    font-size: 25px;
+}
+.user {
+    font-size: 25px;
+    display: grid;
+    align-items: center;
+
+}
+.submit {
+    font-size: 15px;
+    display: grid;
+    justify-items: auto;
+    margin-top: 20px;
+    align-items: center;
+}
+.submit-login{
+    align-content: center;
+    justify-items: center;
+}
