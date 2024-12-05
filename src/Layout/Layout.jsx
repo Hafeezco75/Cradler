@@ -17,10 +17,10 @@ const Layout = () => {
                         <Link to="/login">Login</Link>
                     </button>
                     <button>
-                        <Link to="/events">Create Events</Link>
+                        <Link to="/events">Find Events</Link>
                     </button>
                     <button>
-                        <Link to="/find-events">Find Events</Link>
+                        <Link to="/find-events">Create Events</Link>
                     </button>
                 </ul>
             </nav>

@@ -12,7 +12,7 @@ const navBar = () => {
                 </a>
                 <ul className="list">
                     <button>
-                        <Link to="/mainapp">MainApp</Link>
+                        <Link to="/home">Home</Link>
                     </button>
                     <button>
                         <Link to="/register">Register</Link>
@@ -21,10 +21,10 @@ const navBar = () => {
                         <Link to="/login">Login</Link>
                     </button>
                     <button>
-                        <Link to="/events">Create Events</Link>
+                        <Link to="/events">Find Events</Link>
                     </button>
                     <button>
-                        <Link to="/find-events">Find Events</Link>
+                        <Link to="/create-events">Create Events</Link>
                     </button>
                 </ul>
             </div>

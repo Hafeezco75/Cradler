@@ -11,29 +11,31 @@ const mainapp = () => {
         <div className="virtual">
 
             <div className="top-events">
-            <p className="top"> Top Events in Nigeria</p>
-            </div>
-
+            <div className={"row-events"}>
             <a href="https://localhost/events" target="_blank">
                 <img src={virtualHub} className="virtual-img" alt="Virual Space"/>
 
                 <p>The Grand Conference Hub: Remarkable</p>
-                <p> {date.setDate(12/12/2024)}</p>
+                <p> {date.getFullYear()}</p>
                 <p>314, Herbert Sherlton Rd</p>
                 <h3>Free</h3>
             </a>
+            </div>
 
-            <a href="https://localhost/events" target="_blank">
+            <div className={"row-events"}>
+                <a href="https://localhost/events" target="_blank">
                 <img src={eventify1} className="virtual-img" alt="Events hub"/>
                 <p>The Long Awaited Blockbuster: Expendify</p>
                 <p> {date.getDate()}</p>
                 <p>38, Saka Durojaiye Avenue</p>
                 <h3>Paid</h3>
             </a>
+            </div>
 
-            <a href="https://localhost/events" target="_blank">
+                <a href="https://localhost/events" target="_blank">
                 <img src={conference} className="virtual-img" alt="Conference"/>
-                <p>SUI Blockchain Champ: Financial Inclusion In Tech</p>
+                <p>SUI Blockchain: Financial
+                    Inclusion In Tech</p>
                 <p> {date.getDay()}</p>
                 <p>136, Randle Avenue Rd, Ikoyi</p>
                 <h3>Free</h3>
@@ -41,11 +43,12 @@ const mainapp = () => {
 
             <a href="https://localhost/events" target="_blank">
                 <img src={nextdeal} className="virtual-img" alt="Conference"/>
-                <p>The Grand Conference Hub: Remarkable</p>
+                <p>The Summer Event: Remarkable</p>
                 <p> {date.getFullYear()}</p>
                 <p>41, Barren Davies Close, Lekki</p>
                 <h3>From $20.3</h3>
             </a>
+            </div>
         </div>
     )
 

@@ -21,19 +21,17 @@
 .img {
     display: flex;
     height: 200px;
-    width: 70%;
+    justify-content: space-between;
 }
 .img-apps{
-    width: 320vw;
+    width: 200vw;
     height: 200%;
     flex-direction: row;
     justify-items: flex-end;
     margin: 1em;
 }
 .img-auditorium {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 1em;
-    width: 120vw;
-    height: 60vh;
-    flex-direction: row;
+    width: 40vw;
 }

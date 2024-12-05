@@ -12,22 +12,27 @@
 .heading {
     align-content: center;
     font-size: larger;
-    color: white;
+}
+.head-top{
+    background-color: seagreen;
+    border-radius: 8px
 }
 .pass {
     font-size: 25px;
     display: grid;
     justify-items: center;
+    margin-bottom: 10px;
 }
 .password-input {
-    font-size: 25px;
+    font-size: 20px;
 }
 .input-username {
-    font-size: 25px;
+    font-size: 20px;
 }
 .user {
     font-size: 25px;
     display: grid;
+    margin-bottom: 10px;
     align-items: center;
 
 }

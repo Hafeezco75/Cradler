@@ -3,12 +3,13 @@ import "../login.css"
 const login = () => {
 
     return (
-        <div className={"page-form"}>
-
+        <div className="page-form">
             <form className="form" onSubmit={login}>
-                <div className="">
-                    <label className="heading" htmlFor="email">Welcome Back User,Kindly Login</label>
+
+                <div className="head-top">
+                    <label className="heading"> Welcome Back User,Kindly Login </label>
                 </div>
+
                 <label className="user">Username</label>
                 <input className="input-username" name="username"
                        placeholder="Username"

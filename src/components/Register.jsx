@@ -1,6 +1,5 @@
 import {useState} from "react";
 import "../register.css"
-import * as events from "node:events";
 
 
 const Register = () => {
@@ -42,6 +41,7 @@ const Register = () => {
                 <div className="continue">
                 <button className="continue-button" onClick={() => {}}> Continue
                 </button>
+
                 </div>
             </form>
         </div>
